@@ -1,0 +1,88 @@
+@media only screen and (max-width: 1200px) {
+  .row {
+    margin: 0 15px;
+  }
+  .hero-text {
+    width: 90%;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .main-nav {
+    display: none;
+  }
+  html {
+    font-size: 57.5%;
+  }
+  .client {
+    width: 10rem;
+    float: none;
+    text-align: center;
+  }
+  .client img {
+    margin: 0 0rem 3rem 15rem;
+  }
+  /* .review {
+    width: 100%;
+    float: none;
+    text-align: center;
+  } */
+  .review p,
+  .review h3,
+  .review h4 {
+    text-align: center;
+  }
+  .toggle-bar span {
+    display: block;
+  }
+  .sticky .toggle-bar span {
+    margin-top: 0rem;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .span_1_of_4 {
+    width: 49.2%;
+  }
+  .span_1_of_4:nth-child(3) {
+    margin-left: 0;
+  }
+  html {
+    font-size: 55.5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .service-description {
+    padding: 0 10.5%;
+  }
+  h1 {
+    font-size: 3.5rem;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .span_1_of_4 {
+    width: 100%;
+  }
+  .client img {
+    margin: 0 0rem 3rem 18rem;
+  }
+  .review {
+    padding-left: 6rem;
+    /* padding-right: 6rem; */
+  }
+  .about-us .col:nth-child(1),
+  .about-us .col:nth-child(2) {
+    margin-bottom: 0rem;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .review {
+    padding-left: 3rem;
+    padding-right: 6rem;
+  }
+  .client img {
+    margin: 0 0rem 3rem 14rem;
+  }
+}
