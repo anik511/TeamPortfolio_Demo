@@ -33,6 +33,7 @@
   }
   .toggle-bar span {
     display: block;
+    margin-right: 2rem;
   }
   .sticky .toggle-bar span {
     margin-top: 0rem;
