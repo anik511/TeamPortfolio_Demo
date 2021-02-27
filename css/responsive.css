@@ -31,6 +31,9 @@
   .review h4 {
     text-align: center;
   }
+  .logo{
+    margin-top: 2.5rem;
+  }
   .toggle-bar span {
     display: block;
     margin-right: 2rem;
